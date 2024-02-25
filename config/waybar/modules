@@ -438,20 +438,20 @@
 	"scroll-step": 5,
 },
 "temperature": {
-	"interval": 10,
-	"tooltip": true,
-	"hwmon-path": [
-		"/sys/class/hwmon/hwmon6/temp1_input",
+    "interval": 10,
+    "tooltip": true,
+    "hwmon-path": [
+		"/sys/class/hwmon/hwmon3/temp1_input",
 		"/sys/class/thermal/thermal_zone0/temp"
 	],
-	//"thermal-zone": 0,
-	"critical-threshold": 82,
-	"format-critical": "{temperatureC}°C {icon}",
-	"format": "{temperatureC}°C {icon}",
-	"format-icons": [
+    //"thermal-zone": 0,
+    "critical-threshold": 82,
+    "format-critical": "{temperatureC}°C {icon}",
+    "format": "{temperatureC}°C {icon}",
+    "format-icons": [
 		"󰈸"
 	],
-	"on-click-right": "kitty --title nvtop sh -c 'nvtop'"
+    "on-click-right": "kitty --title nvtop sh -c 'nvtop'"
 },
 "tray": {
 	"icon-size": 15,
@@ -585,15 +585,15 @@
 	"on-click": "kitty -T update paru -Syu || yay -Syu && notify-send 'The system has been updated'",
 },
 "custom/weather": {
-	"format": "{}",
-	"format-alt": "{alt}: {}",
-	"format-alt-click": "click",
-	"interval": 3600,
-	"return-type": "json",
-	"exec": "~/.config/hypr/UserScripts/Weather.sh",
-	//"exec": "~/.config/hypr/UserScripts/Weather.py",
-	"exec-if": "ping wttr.in -c1",
-	"tooltip": true,
+    "format": "{}",
+    "format-alt": "{alt}: {}",
+    "format-alt-click": "click",
+    "interval": 3600,
+    "return-type": "json",
+    "exec": "~/.config/hypr/UserScripts/Weather.py",
+    //"exec": "~/.config/hypr/UserScripts/Weather.sh",
+    "exec-if": "ping weather.com -c1",
+    "tooltip" : true,
 },
 // Separators
 "custom/separator#dot": {
