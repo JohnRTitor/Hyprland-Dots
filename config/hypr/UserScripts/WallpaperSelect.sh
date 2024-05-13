@@ -11,7 +11,7 @@ wallDIR="$HOME/Pictures/wallpapers"
 
 # Transition config
 FPS=30
-TYPE="wipe"
+TYPE="random"
 DURATION=1
 BEZIER=".43,1.19,1,.4"
 SWWW_PARAMS="--transition-fps $FPS --transition-type $TYPE --transition-duration $DURATION"
