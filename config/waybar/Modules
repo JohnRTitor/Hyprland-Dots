@@ -9,8 +9,8 @@
 	"interval": 10,
 	"tooltip": true,
 	"hwmon-path": [
-		"/sys/class/hwmon/hwmon1/temp1_input",
-		"/sys/class/thermal/thermal_zone0/temp"
+                // tccd is the true temperature
+                "/sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon5/temp3_input"
 	],
 	//"thermal-zone": 0,
 	"critical-threshold": 82,
