@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
 # Dropdown Terminal 
 # Usage: ./Dropdown.sh [-d] <terminal_command>
