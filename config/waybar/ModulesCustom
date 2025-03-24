@@ -11,7 +11,9 @@
 	"format-alt-click": "click",
 	"interval": 3600,
 	"return-type": "json",
-	"exec": "$HOME/.config/hypr/UserScripts/Weather.py",
+ 	// weather-python-script is a python script wrapped with the correct python
+ 	// interpreter, this is needed for NixOS
+ 	"exec": "weather-python-script",
 	//"exec": "$HOME/.config/hypr/UserScripts/Weather.sh",
 	//"exec-if": "ping wttr.in -c1",
 	"tooltip": true,
