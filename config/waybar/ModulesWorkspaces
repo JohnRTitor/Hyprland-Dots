@@ -194,7 +194,7 @@
 		"class<tor browser>": " ",
 		"class<firefox-developer-edition>": "🦊 ",
 
-		"class<kitty|konsole>": " ",
+		"class<kitty|konsole|Alacritty>": " ",
 		"class<kitty-dropterm>": " ",
 		"class<com.mitchellh.ghostty>": " ",
 		"class<org.wezfurlong.wezterm>": " ",
@@ -205,6 +205,7 @@
 
 		"class<[Tt]elegram-desktop|org.telegram.desktop|io.github.tdesktop_x64.TDesktop>": " ",
 		"class<discord|[Ww]ebcord|Vesktop>": " ",
+		"class<im.riot.Riot>": "󰭹",
 		"title<.*whatsapp.*>": " ",
 		"title<.*zapzap.*>": " ",
 		"title<.*messenger.*>": " ",
@@ -219,6 +220,7 @@
 		"class<slack>": " ",
 
 		"class<mpv>": " ",
+		"class<com.github.rafostar.Clapper>": "",
 		"class<celluloid|Zoom>": " ",
 		"class<Cider>": "󰎆 ",
 		"title<.*Picture-in-Picture.*>": " ",
@@ -234,8 +236,8 @@
 		"title<virtualbox>": "💽 ",
 		"class<remmina>": "🖥️ ",
 
-		"class<VSCode|code-url-handler|code-oss|codium|codium-url-handler|VSCodium>": "󰨞 ",
-		"class<dev.zed.Zed>": "󰵁",
+		"class<VSCode|code|code-url-handler|code-oss|codium|codium-url-handler|VSCodium>": "󰨞 ",
+        "class<dev.zed.Zed.*>": "󰵁",
 		"class<codeblocks>": "󰅩 ",
 		"title<.*github.*>": " ",
 		"class<mousepad>": " ",
@@ -252,11 +254,13 @@
 		"class<obs|com.obsproject.Studio>": " ",
 
 		"class<polkit-gnome-authentication-agent-1>": "󰒃 ",
+		"title<Hyprland Polkit Agent>": "󰒃 ",
 		"class<nwg-look>": " ",
 		"class<[Pp]avucontrol|org.pulseaudio.pavucontrol>": "󱡫 ",
 		"class<steam>": " ",
 		"class<thunar|nemo>": "󰝰 ",	
-		"class<Gparted>":"",
+    	"class<Gparted|gnome-disks>": "",
+		"class<deluge>": "",
 		"class<gimp>": " ",
 		"class<emulator>": "📱 ",
 		"class<android-studio>": " ",
