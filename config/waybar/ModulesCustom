@@ -171,7 +171,7 @@
     
 "custom/quit": {
     "format": "󰗼",
-    "on-click": "hyprctl dispatch exit",
+    "on-click": "uwsm stop",
     "tooltip": true,
 	"tooltip-format": "Left Click: Exit Hyprland",
 },
